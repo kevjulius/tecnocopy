@@ -219,9 +219,17 @@ body{
 
 .floating-cart img {
     align-items: center;
-    width: 200%; /* Ajusta el tamaño de la imagen dentro del botón */
-    height: auto; /* Mantendrá la proporción original de la imagen */
+    width: 100%;
+    height: auto;
     display: block;
     margin: auto;
     padding: 0px;
+    object-fit: cover;
 }
+
+.floating-cart a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
