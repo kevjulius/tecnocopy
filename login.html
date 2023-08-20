@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio de Sesión</title>
+        <link   rel="stylesheet" href="./css/bootstrap.min.css">
+        <link   rel="stylesheet" href="./css/style.css">
+
+    <style>
+
+        .anchomax{
+            width: 100%;
+            max-width: 720px;
+        }
+
+        .list-form a{
+            width: 100%;
+            display: block;
+        }
+
+        body{
+
+            padding: 20px;
+            background-color: #161815;
+        }
+        .bg{
+            background-image: url(./images/Impresoras.jpg);
+            background-position: center center;
+        }
+    </style>
+</head>
+<body>
+<div class="container anchomax bg-primary mt-5 rounded shadow">
+        <div class="row align-items-lg-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+
+            </div>
+            <div class="col bg-white p-5 rounded-end">
+                <div class="text-center rounded-circle mb-4">
+                    <img src="./images/logo.jpg" width="48" alt=" ">
+                </div>
+                <h2 class="text-center"><i class="fas fa-lock"></i>Iniciar Sesión</h2>
+
+                <!-- Login -->
+                <form action="#">
+                    <div class="mb-4">
+                        <label for ="email" class="form-label">Correo electrónico</label>
+                        <input type ="email" class="form-control" placeholder="correo@correo.com" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for ="password" class="form-label">Contraseña</label>
+                        <input type ="password" class="form-control" placeholder="Ingresa tu Contraseña" required>
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" name="connected" class="form-check-input">
+                        <label for="connected" class="form-check-label dark">Mantenerme conectado</label>
+                    </div>
+
+                    <div class="d-lg-grid">
+                        <button tpye="submit" class="btn btn-dark">Iniciar Sesión</button>
+                        
+                    </div>
+
+                    <div class="my-3 text-center list-form">
+                        <span><a href="/registro.html">Regístrate</a></span>
+                        <span> <a href="#">¿Olvidaste tu contraseña?</a></span>
+                        <span> <a href="/index.html">Ingresar como invitado</a></span>
+                    </div>
+                </form>
+
+                
+            </div>
+
+        </div>
+    </div>
+    <script src="/javascript/bootstrap.bundle.min.js"></script>
+    
+
+    
+</body>
+
+</html>

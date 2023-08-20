@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Tecnocopy</title>
+    <link   rel="stylesheet" href="./css/bootstrap.min.css">
+    <link   rel="stylesheet" href="./css/style.css">
+    <link   rel="stylesheet" href="./css/modal.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   </head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+        <div class="container">
+
+            <a href="#" class="navbar-brand"><span class="text-white">Tecnocopy</span></a>
+            <button class="navbar-toggler" type ="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarS"
+                aria-controls="navbarS"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="productos.html" class="nav-link">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#servicios" class="nav-link">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Ingresar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 d-img" src="/images/carousel1.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>EPSON ecoTank</h5>
+                <p>Di adiós a los cartuchos y da la bienvenida a la impresión sin límites con la Epson EcoTank. 
+                    Olvídate de recargar constantemente y disfruta de impresiones de alta calidad con tinta que 
+                    dura hasta 2 años. Ahorra tiempo, dinero y contribuye al medio ambiente con nuestro 
+                    revolucionario sistema de tanques de tinta. ¡La Epson EcoTank, la elección inteligente 
+                    para impresión sin preocupaciones!</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 d-img" src="/images/carousel2.jpg" alt="Second slide" Fliter: opacity (.7)>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Cartuchos brother</h5>
+                <p>Descubre la excelencia en impresión con los cartuchos Brother. Obtén resultados 
+                    impecables y duraderos en cada página. Confía en la calidad y fiabilidad que solo 
+                    Brother puede ofrecer. ¡Impresiona con cada impresión!</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 d-img" src="/images/carousel3.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Servicios de Reparación</h5>
+                <p>¡Confía en Tecnocopy para la reparación de tu impresora! Soluciones rápidas y efectivas 
+                    para que vuelvas a imprimir sin problemas. Recupera el rendimiento óptimo de tu 
+                    impresora con nuestro servicio experto. ¡Tecnocopy, tu aliado en reparación de impresoras!</p>
+              </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+      <section class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class ="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="/images/seccion.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text text-white">
+                        <h1>Todo en Impresoras <br>Servicios</h1>
+                        <p>
+                            ¡Imprime tus ideas con claridad y calidad! Nuestra impresora de última 
+                            generación ofrece resultados nítidos y rápidos para satisfacer todas tus 
+                            necesidades de impresión. Simplifica tu vida y obtén impresiones profesionales 
+                            en un abrir y cerrar de ojos. ¡Descubre la potencia de nuestra impresora hoy mismo!
+                        </p>
+                        <a class="btn btn-primary" id="openPopupBtn">Mas Información</a>
+                        <div id="popupContainer" class="popup">
+                            <div class="popup-content">
+                                <h2>¡Este es un Pop-up!</h2>
+                                <p>Contenido del pop-up.</p>
+                                <a class="btn btn-primary" id="closePopupBtn">Cerrar</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+      </section>
+
+      <section id="productos" class="portafolio section-padding">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h1 class="text-bold">Productos</h1>
+                        <p>"Descubre nuestra amplia selección de impresoras y soluciones de impresión en Tecnocopy. 
+                            Desde impresoras de alta calidad para el hogar hasta equipos multifuncionales para empresas, 
+                            tenemos todo lo que necesitas. Explora nuestras opciones y lleva tus proyectos al siguiente nivel con nuestra tecnología de vanguardia."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="images/producto_3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>EPSON L3150</h3>
+                            <p class="lead">
+                               
+                            </p>
+                            <button class="btn bg-primary text-white">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="images/producto_2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>HP Ink Tank 115</h3>
+                            <p class="lead">
+                            </p>
+                            <button class="btn bg-primary text-white">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="images/producto_1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h3>Brother DCP-T820DW</h3>
+                            <p class="lead">
+                            </p>
+                            <button class="btn bg-primary text-white">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+  </section>
+
+
+      <section id="servicios" class="portafolio section-padding">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center text-white pb-5">
+                            <h1>Servicios</h1>
+                            <p>"En nuestra empresa de impresoras, te ofrecemos todo lo que necesitas para 
+                                un óptimo rendimiento de tus equipos. Realizamos mantenimiento, reparación 
+                                y recarga de cartuchos, asegurando que tus impresoras siempre funcionen de 
+                                manera eficiente y tus impresiones sean de la mejor calidad. Confía en 
+                                nuestros servicios para mantener tus equipos en perfecto estado y ahorrar 
+                                en costos de impresión. ¡Déjanos cuidar de tus necesidades de impresión!"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-light text-center bg-dark pb-2">
+                            <div class="card-body text-white">
+                                <div class="img-area mb-4">
+                                    <img src="/images/toner.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Toner</h3>
+                                <p class="lead">
+                                    Renueva tu impresión con nuestro servicio de recarga de tóner. Ahorra dinero y reduce residuos con recargas de calidad garantizada. Obtén resultados profesionales sin comprometer tu presupuesto. ¡Confía en nosotros para recargar tu tóner y mantén tus impresiones impecables!
+                                </p>
+                                <button class="btn bg-primary text-white">Lo quiero</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-light text-center bg-dark pb-2">
+                            <div class="card-body text-white">
+                                <div class="img-area mb-4">
+                                    <img src="/images/reparacion.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Servicio Tecnico</h3>
+                                <p class="lead">
+                                    Solucionamos tus problemas técnicos. Nuestro servicio técnico confiable y eficiente está aquí para ayudarte. Reparaciones rápidas y soluciones efectivas para que puedas volver a trabajar sin interrupciones. ¡Confía en nosotros para tu servicio técnico!
+                                </p>
+                                <button class="btn bg-primary text-white">Lo quiero</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-light text-center bg-dark pb-2">
+                            <div class="card-body text-white">
+                                <div class="img-area mb-4">
+                                    <img src="/images/sistema.jpg" class="img-fluid" alt="">
+                                </div>
+                                <h3>Adaptación de Sistema</h3>
+                                <p class="lead">
+                                    Optimiza tus costos realizando la adaptación de un sistema de tinta continuo a tu impresora de cartuchos de tinta.
+                                </p>
+                                <button class="btn bg-primary text-white">Lo quiero</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+      </section>
+
+
+      <section id="contacto">
+        <div class="contactUs">
+            <div class = "title">
+                <h1>Contactanos</h1>
+            </div>
+            <div class="box">
+                <div class="contact form">
+                    <h3>Envianos un mensaje</h3>
+                    <form>
+                        <div class="formBox">
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>Nombres</span>
+                                    <input type ="text" placeholder="Ingrese nombres">
+                                </div>
+                                <div class="inputBox">
+                                    <span>Apellidos</span>
+                                    <input type ="text" placeholder="Ingrese Apellidos">
+                                </div>
+                            </div>
+
+                            <div class="row50">
+                                <div class="inputBox">
+                                    <span>Correo Electronico</span>
+                                    <input type ="text" placeholder="Ingrese correo">
+                                </div>
+                                <div class="inputBox">
+                                    <span>Telefono</span>
+                                    <input type ="text" placeholder="Ingrese telefono">
+                                </div>
+                            </div>
+
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <span>Mensaje</span>
+                                    <textarea placeholder="Escribe tu mensaje aqui"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row100">
+                                <div class="inputBox">
+                                    <input type ="submit" value="Enviar">
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </form>
+                </div>
+
+
+                <div class="contact ">
+                    <h3>Info de Contacto</h3>
+                    <div class="infoBox">
+                        <div>
+                            <span></span>
+                            <p>Av Tomas Marsano 1411<br>PERÚ</p>
+                        </div>
+                        <div>
+                            <span><ion-icon name="location-outline"></ion-icon></span>
+                            <a href="mailto:contacto@tecnocopy.com">contacto@tecnocopy.com</a>
+                        </div>
+                        <div>
+                            <span><ion-icon name="call-outline"></ion-icon></span>
+                            <a href="tel:+51910464065">+51 910 464 065</a>
+                        </div>
+                        <ul class="sci">
+                            <li><a href= "#"><ion-icon name = "logo-facebook"></ion-icon></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.9361847039213!2d-77.
+                    0088352!3d-12.116518899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                    1!3m3!1m2!1s0x9105c7e29000ac37%3A0x98a1f4bfb1bc9416!2sAv%20Tom%C3%A1s%20Marsano%201411%2C%20Surquillo%2015038!5e0!3m2!1ses-419!2spe!4v1690178002691!5m2!1ses-419!2spe" 
+                   
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    
+    
+
+
+      </section>
+      <!-- Botón flotante para el carrito de compra -->
+    <div class="floating-cart">
+        <a href="#" class="btn btn-primary">
+            <img src="./images/carrito.jpg" alt="Carrito de Compra">
+        </a>
+        
+    </div>
+
+      <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-left text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">Tecnocopy</h5>
+                    <p>"Somos Tecnocopy, expertos en impresoras. Ofrecemos soluciones integrales con 
+                        equipos de última generación y servicios de mantenimiento, reparación y recarga 
+                        de cartuchos. Confía en nuestra experiencia para optimizar tus necesidades de 
+                        impresión."</p>
+
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">Productos</h5>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Impresoras</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Cartuchos</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Limpiadores</a>
+                </p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">Servicios</h5>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Mantenimiento</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Limpieza</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Mayor Información</a>
+                </p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">Contacto</h5>
+                <p>
+                    <i class="fas fa-home mr-3"></i> Av. Tomas Marzano 1411
+                </p>
+                <p>
+                    <i class="fas fa-envelope mr-3"></i> contacto@tecnocopy.com
+                </p>
+                <p>
+                    <i class="fas fa-phone mr-3"></i> +51 958 123 654
+                </p>
+                </div>
+
+                
+            </div>
+        </div>
+      </footer>
+   
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons.esm.js"></script>
+    <script src="/javascript/bootstrap.bundle.min.js"></script>
+    <script src="./javascript/modal.js"></script>
+
+</body>
+</html>
+
+<!--<a href="login.html">Click Aquí</a>  PARA REDIRIGIR-->
