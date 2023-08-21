@@ -58,7 +58,7 @@ header h1{
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    color:white
+    color:black
 }
 .contenedor .contenedor-items .item .precio-item{
     display: block;
@@ -115,7 +115,7 @@ header h1{
     font-weight: bold;
     margin-bottom: 10px;
     text-transform: uppercase;
-    color: white;
+    color: black;
 }
 .carrito .carrito-item .selector-cantidad{
     display: inline-block;
@@ -129,7 +129,7 @@ header h1{
     width: 30px;
     padding: 5px;
     text-align: center;
-    color: white;
+    color: black;
 }
 .carrito .carrito-item .selector-cantidad i{
     font-size: 18px;
@@ -138,16 +138,16 @@ header h1{
     line-height: 32px;
     text-align: center;
     border-radius: 50%;
-    border: 1px solid #fff;
+    border: 1px solid black;
     cursor: pointer;
-    color: white;
+    color: black;
 }
 .carrito .carrito-item .carrito-item-precio{
     font-weight: bold;
     display: inline-block;
     font-size: 18px;
     margin-bottom: 5px;
-    color: white;
+    color: black;
 }
 .carrito .carrito-item .btn-eliminar{
     position: absolute;
@@ -160,10 +160,10 @@ header h1{
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
-    border: 1px solid #fff;
+    border: 1px solid black;
     cursor: pointer;
     display: block;
-    background: transparent;
+    background: black;
     z-index: 20;
 }
 .carrito .carrito-item .btn-eliminar i{

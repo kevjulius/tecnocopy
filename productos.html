@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/estilo_tienda.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     
     
     <script src="/javascript/app_productos.js" async></script>
@@ -13,42 +14,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 
-            <div class="container">
-    
-                <a href="#" class="navbar-brand"><span class="text-white">Tecnocopy</span></a>
-                <button class="navbar-toggler" type ="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarS"
-                    aria-controls="navbarS"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarS">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="productos.html" class="nav-link">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contacto" class="nav-link">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="login.html" class="nav-link">Ingresar</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <h1>Tecnocopy</h1>
     </header>
     <section class="contenedor">
         <!-- Contenedor de elementos -->
@@ -72,41 +38,12 @@
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
-                <span class="titulo-item">La Night</span>
-                <img src="img/lanight.png" alt="" class="img-item">
-                <span class="precio-item">$18.000</span>
+                <span class="titulo-item">HP Ink Tank 115</span>
+                <img src="images/producto_2.jpg" alt="" class="img-item">
+                <span class="precio-item">S/. 679</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
-            <div class="item">
-                <span class="titulo-item">Silver All</span>
-                <img src="img/silverall.png" alt="" class="img-item">
-                <span class="precio-item">$32.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Skin Glam</span>
-                <img src="img/skinglam.png" alt="" class="img-item">
-                <span class="precio-item">$18.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Midimix</span>
-                <img src="img/midimix.png" alt="" class="img-item">
-                <span class="precio-item">$54.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Sir Blue</span>
-                <img src="img/sirblue.png" alt="" class="img-item">
-                <span class="precio-item">$32.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Middlesteel</span>
-                <img src="img/middlesteel.png" alt="" class="img-item">
-                <span class="precio-item">$42.800</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
+
         </div>
         <!-- Carrito de Compras -->
         <div class="carrito" id="carrito">
@@ -152,12 +89,68 @@
                 <div class="fila">
                     <strong>Tu Total</strong>
                     <span class="carrito-precio-total">
-                        $120.000,00
+                        
                     </span>
                 </div>
                 <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
             </div>
         </div>
     </section>
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-left text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">Tecnocopy</h5>
+                    <p>"Somos Tecnocopy, expertos en impresoras. Ofrecemos soluciones integrales con 
+                        equipos de última generación y servicios de mantenimiento, reparación y recarga 
+                        de cartuchos. Confía en nuestra experiencia para optimizar tus necesidades de 
+                        impresión."</p>
+
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">Productos</h5>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Impresoras</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Cartuchos</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Limpiadores</a>
+                </p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">Servicios</h5>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Mantenimiento</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Limpieza</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Mayor Información</a>
+                </p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-white">Contacto</h5>
+                <p>
+                    <i class="fas fa-home mr-3"></i> Av. Tomas Marzano 1411
+                </p>
+                <p>
+                    <i class="fas fa-envelope mr-3"></i> contacto@tecnocopy.com
+                </p>
+                <p>
+                    <i class="fas fa-phone mr-3"></i> +51 958 123 654
+                </p>
+                </div>
+
+                
+            </div>
+        </div>
+      </footer>
+
 </body>
 </html>
