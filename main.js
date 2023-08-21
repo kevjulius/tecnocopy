@@ -8,6 +8,13 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 
 })
+
+app.get('/index.html', function(req, res) {
+
+    res.sendFile(path.join(__dirname + '/index.html.html'));
+
+})
+
 app.get('/login.html', function(req, res) {
 
     res.sendFile(path.join(__dirname + '/login.html'));
@@ -21,7 +28,7 @@ app.get('/productos.html', function(req, res) {
 
 app.get('/registro.html', function(req, res) {
 
-    res.sendFile(path.join(__dirname + '/public/registro.html'));
+    res.sendFile(path.join(__dirname + '/registro.html'));
 
 })
 
