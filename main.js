@@ -32,6 +32,12 @@ app.get('/registro.html', function(req, res) {
 
 })
 
+app.get('/pago_tarjeta.html', function(req, res) {
+
+    res.sendFile(path.join(__dirname + '/pago_tarjeta.html'));
+
+})
+
 
 app.listen(3005);
 

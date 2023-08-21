@@ -192,6 +192,5 @@ function actualizarTotalCarrito(){
     }
     total = Math.round(total * 100)/100;
 
-    document.getElementsByClassName('carrito-precio-total')[0].innerText = 'S/. '+total.toLocaleString("es") + ",00";
-
+    document.getElementsByClassName('carrito-precio-total')[0].innerText = 'S/. '+total.toLocaleString("es") ;
 }
